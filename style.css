@@ -1,0 +1,141 @@
+  *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+.capa {
+
+    width: 100%;
+    height: 20%;
+  }
+
+  .link-1 {
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+  .link-2 {
+    color: blue;
+
+    }
+
+.link-3 {
+     color: rgb(119, 10, 92);
+    
+ }
+
+ table {
+  border-collapse: collapse; /* une as bordas da tabela */
+  width: 25%; /* define a largura da tabela */
+  margin-bottom: 20px; /* define uma margem inferior para a tabela */
+}
+
+th, td {
+  border: 1px solid black; /* define uma borda de 1px sólido preto para as células */
+  padding: 8px; /* define um preenchimento de 8px para as células */
+  text-align: center; /* centraliza o conteúdo das células */
+}
+
+th {
+  background-color: rgb(7, 95, 153); /* define uma cor de fundo cinza para os cabeçalhos das colunas */
+  color: white; /* define uma cor de texto branca para os cabeçalhos das colunas */
+  font-weight: bold; /* define um peso de fonte em negrito para os cabeçalhos das colunas */
+}
+
+.arredonda {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+  rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+  rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  text-align: justify;
+  width: "600px";
+  height: "338px";
+ 
+  
+ 
+ 
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.caixa-texto {
+  position: relative;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+  rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+  rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+}
+
+.caixa {
+  border-radius: 10px;
+  max-width: 40%;
+  
+}
+
+footer{
+  background-color: rgb(7, 83, 134);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+footer > a {
+  color: white;
+}
+
+
+ul{
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  justify-content:center;
+  align-items:0;
+  display:flex;
+  
+}
+
+li{
+  float: left; /* Coloca os elementos um ao lado do outro */
+
+}
+
+li a{
+  display: inline-block; /* Permite a especificação do padding */
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  padding: 10px 20px; /* Coloca espaço entre os elementos dentro de <a> */
+  text-decoration: none; /* Tira a decoração do link*/
+}
+
+li a:hover:not(.active){
+  background-color: rgb(91, 144, 179);
+  
+
+}
+.active{
+  background-color: #3188b1;
+}
+
